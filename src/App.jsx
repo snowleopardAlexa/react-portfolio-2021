@@ -3,13 +3,18 @@ import About from "./components/About/About";
 import ProductList from "./components/ProductList/ProductList";
 import Contact from "./components/Contact/Contact";
 import Toggle from "./components/Toggle/Toggle";
+import {useState} from 'react';
 
 const App = () => {
+
+  const [dark, setDark] = useState(false)
+
+
     return (
       <div>
-       <Toggle />
-       <Intro />
-       <About />
+       <Toggle setDark={setDark} />
+       <Intro dark={dark} />
+       <About dark={dark} />
        <ProductList />
        <Contact />
       </div>
