@@ -12,9 +12,9 @@ const App = () => {
 
     return (
       <div>
-       <Toggle setDark={setDark} />
-       <Intro dark={dark} />
-       <About dark={dark} />
+       <Toggle />
+       <Intro />
+       <About />
        <ProductList />
        <Contact />
       </div>

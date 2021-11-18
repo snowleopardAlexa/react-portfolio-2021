@@ -90,4 +90,5 @@ button {
 .sent-text {
     color: white;
     font-size: 2rem;
+    background-color: coral;
 }
