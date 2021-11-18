@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useReducer } from "react";
 
 export const ThemeContext = createContext();
 
@@ -13,3 +13,12 @@ const themeReducer = (state, action) => {
     }
 };
 
+export const ThemeProvider = (props) => {
+    const [state, dispatch] = useReducer(themeReducer, INITIAL_STATE)
+
+    return (
+        <ThemeProvider value={(state, dispatch)}>
+            {props.children}
+        </ThemeProvider>
+    )
+}
