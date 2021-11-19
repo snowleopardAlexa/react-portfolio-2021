@@ -1,5 +1,5 @@
 import React from 'react';
-import './productlist.css';
+import './productList.css';
 import Product from "../Product/Product";
 
 
@@ -13,6 +13,10 @@ const ProductList = () => {
                </p>
            </div>
            <div className="pl-list">
+               <Product />
+               <Product />
+               <Product />
+               <Product />
                <Product />
                <Product />
                <Product />
