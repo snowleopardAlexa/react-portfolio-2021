@@ -1,5 +1,6 @@
 import React from 'react';
 import './productlist.css';
+import Product from "../Product/Product";
 
 
 const ProductList = () => {
@@ -10,6 +11,12 @@ const ProductList = () => {
                <p className="pl-desc">
                    Alexa is developer... 
                </p>
+           </div>
+           <div className="pl-list">
+               <Product />
+               <Product />
+               <Product />
+               <Product />
            </div>
        </div>
     )
