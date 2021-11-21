@@ -10,3 +10,7 @@
 .intro-right {
     flex: 1;
 }
+
+.intro-left-wrapper {
+    padding: 50px;
+}
