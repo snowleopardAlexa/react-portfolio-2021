@@ -14,3 +14,27 @@
 .intro-left-wrapper {
     padding: 50px;
 }
+
+.i-intro {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.i-name {
+    font-size: 60px;
+}
+
+.i-title {
+    height: 50px;
+    overflow: hidden;
+}
+
+.i-title-item {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    background-color: rgb(104, 18, 101);
+    display: flex;
+    align-items: center;
+}
