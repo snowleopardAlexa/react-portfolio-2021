@@ -29,6 +29,8 @@
     width: 60%;
     height: 70vh;
     border-radius: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
 .a-img {
