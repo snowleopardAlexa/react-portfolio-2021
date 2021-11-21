@@ -1,8 +1,12 @@
 import Intro from "./components/Intro/Intro";
+import About from "./components/About/About";
 
 const App = () => {
     return (
-      <Intro />
+      <div>
+       <Intro />
+       <About />
+      </div>
     )
 };
 
