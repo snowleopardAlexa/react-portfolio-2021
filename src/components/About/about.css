@@ -3,3 +3,34 @@
     display: flex;
     align-items: center;
 }
+
+.about-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: slateblue;
+    height: 100%;
+}
+
+.about-right {
+    flex: 1;
+}
+
+.a-card-bg {
+    position: absolute;
+    top: 50;
+    left: 50;
+    background-color: sienna;
+}
+
+.a-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+}
+
+.a-img {
+    width: 100%;
+}
