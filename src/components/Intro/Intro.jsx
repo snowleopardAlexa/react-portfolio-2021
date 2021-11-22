@@ -1,5 +1,6 @@
 import React from 'react';
 import "./intro.css";
+import alexa from "../../img/alexa.jpg";
 
 const Intro = () => {
     return (
@@ -22,7 +23,9 @@ const Intro = () => {
                   </div>
               </div>
           </div>
-          <div className="intro-right">right</div>
+          <div className="intro-right">
+              <img src={alexa} alt="" className="i-img" />
+          </div>
       </div>
     )
 };
