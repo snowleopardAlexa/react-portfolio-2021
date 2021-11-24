@@ -12,6 +12,8 @@
     background-color: blueviolet;
     display: flex;
     align-items: center;
+    position: sticky;
+    z-index: 2;
 }
 
 .p-circle {
