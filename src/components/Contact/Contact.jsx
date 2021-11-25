@@ -38,7 +38,11 @@ const Contact = () => {
                        </div>
                    </div>
                 </div>
-                <div className="c-right"></div>
+                <div className="c-right">
+                    <p className="c-desc">
+                        <b>What's your story</b>Get in touch with me.
+                    </p>
+                </div>
             </div>
         </div>
     )
