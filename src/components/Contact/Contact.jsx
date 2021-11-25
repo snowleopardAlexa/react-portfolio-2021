@@ -4,8 +4,16 @@ import phone from "../../img/phone.png";
 import email from "../../img/email.png";
 import github from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
+import { useRef } from "react";
 
 const Contact = () => {
+
+const formRef = useRef()
+
+const handleSubmit = (e) => {
+    e.preventDefault();
+}
+
     return (
         <div className="contact">
             <div className="c-bg"></div>
@@ -42,7 +50,7 @@ const Contact = () => {
                     <p className="c-desc">
                         <b>What's your story</b>Get in touch with me.
                     </p>
-                    <form>
+                    <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" />
                         <input type="text" placeholder="Subject" name="user_subject" />
                         <input type="text" placeholder="Email" name="user_email" />
