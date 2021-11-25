@@ -1,9 +1,7 @@
-import alexa from "../../img/alexa-removebg-preview.png";
-
 export const products = [
     {
         id: 1,
-        img: {alexa},
+        img: "https://i.ibb.co/4TD6CYF/1.jpg",
         link: "http://lama.dev",
     },
     {
