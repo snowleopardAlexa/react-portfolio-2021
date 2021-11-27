@@ -1,5 +1,5 @@
 import Intro from "./components/Intro/Intro";
-import Technologies from "./components/Technologies/Technologies";
+import TechnologiesList from "./components/TechnologiesList/TechnologiesList";
 import ProjectList from "./components/ProjectList/ProjectList";
 import Contact from "./components/Contact/Contact";
 import Toggle from "./components/Toggle/Toggle";
@@ -22,7 +22,7 @@ const App = () => {
        <Toggle />
        <Intro />
        <ProjectList />
-       <Technologies />
+       <TechnologiesList />
        <Contact />
       </div>
     )

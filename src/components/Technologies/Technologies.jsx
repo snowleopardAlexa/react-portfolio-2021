@@ -5,8 +5,8 @@ import './technologies.css';
 const Technologies = ({img, title }) => {
     return (
         <div className="technologies">
-            <img src={img} alt="" className="p-img" />
-            <p className="p-title">{title}</p>
+            <img src={img} alt="" className="t-img" />
+            <p className="t-title">{title}</p>
         </div>
         );
     }

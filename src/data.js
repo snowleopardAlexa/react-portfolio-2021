@@ -53,37 +53,46 @@ export const technologies = [
     {
         id: 1,
         img: js,
-        number: 1,
         title: "JavaScript",
     },
     {
         id: 2,
         img: js,
-        number: 2,
         title: "JavaScript",
     },
     {
         id: 3,
         img: js,
-        number: 3,
         title: "JavaScript",
     },
     {
         id: 4,
         img: js,
-        number: 4,
         title: "JavaScript",
     },
     {
         id: 5,
         img: js,
-        number: 5,
         title: "JavaScript",
     },
     {
         id: 6,
         img: js,
-        number: 6,
+        title: "JavaScript",
+    },
+    {
+        id: 6,
+        img: js,
+        title: "JavaScript",
+    },
+    {
+        id: 6,
+        img: js,
+        title: "JavaScript",
+    },
+    {
+        id: 6,
+        img: js,
         title: "JavaScript",
     },
 ]

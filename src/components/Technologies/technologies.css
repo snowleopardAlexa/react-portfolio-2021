@@ -1,84 +1,22 @@
-.tech {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.tech-title {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
-}
-
-.tech-subtitle {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.tech-left {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: slateblue;
-    height: 100%;
-}
-
-.tech-right {
-    flex: 1;
-}
-
-.t-card-bg {
-    position: absolute;
-    top: 5;
-    left: 50;
-    background-color: sienna;
-}
-
-.t-card {
-    width: 60%;
-    height: 70vh;
-    border-radius: 30px;
-    position: relative;
+.technologies {
+    margin: 20px 10px;
+    border-radius: 10px 10px 0px 0px;
     overflow: hidden;
 }
 
-.t-img {
-    width: 100%;
-}
-
-.t-award-img {
-    width: 120px;
-    height: 120px;
-}
-
 .t-title {
-    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    margin-top: -15px;
+    position: absolute;
 }
 
-.t-sub {
-    margin: 20px 0px;
+.t-img {
+    width: 60px;
+    height: 60px;
+    transition: all 10s ease;
 }
 
-.t-desc {
-    font-weight: 300;
-}
-
-.t-award {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.t-award-texts {
-    width: 70%;
-}
-
-.t-award-title {
-    font-weight: bold;
-    color: grey;
-    margin-bottom: 10px;
+p:hover .p-img {
+    transform: translateY(-100%);
 }

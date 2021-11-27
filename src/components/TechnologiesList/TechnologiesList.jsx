@@ -17,7 +17,6 @@ const TechnologiesList = () => {
                    <Technologies
                       key={item.id}
                       img={item.img}
-                      number={item.number}
                       title={item.title}
                    />
                ))}
