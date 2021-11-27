@@ -1,8 +1,10 @@
+import alexa from "./alexa.jpg";
 
 export const products = [
+
     {
-        id: 1,
-        img: "https://i.ibb.co/4TD6CYF/1.jpg",
+        id: 2,
+        img: alexa,
         link: "http://lama.dev",
     },
     {
