@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import ProductList from "./components/ProductList/ProductList";
 import Contact from "./components/Contact/Contact";
 import Toggle from "./components/Toggle/Toggle";
+import { useContext } from 'react';
 import { ThemeContext } from "./Context";
 
 const App = () => {
@@ -11,7 +12,12 @@ const App = () => {
   const darkMode = theme.state.darkMode;
 
     return (
-      <div style={{backgroundColor: darkMode ?  "red" : "white"}}>
+      <div 
+        style=
+        {{
+          backgroundColor: darkMode ?  "#FF0000" : "#000"
+        }}
+       >
        <Toggle />
        <Intro />
        <About />

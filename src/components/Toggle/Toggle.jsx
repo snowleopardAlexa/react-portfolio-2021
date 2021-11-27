@@ -10,14 +10,18 @@ const Toggle = () => {
     const theme = useContext(ThemeContext)
     
     const handleClick = () => {
-        theme.dispatch({type: "TOGGLE"})
-    }
+        theme.dispatch({type: "TOGGLE"});
+    };
 
     return (
         <div className="toggle">
-            <img src={sun} alt="" className="t-icon"></img>
-            <img src={moon} alt="" className="t-icon"></img>
-            <div className="t-btn" onClick={handleClick}></div>
+            <img src={sun} alt="" className="t-icon" />
+            <img src={moon} alt="" className="t-icon" />
+            <div 
+              className="t-btn" 
+              onClick={handleClick}
+              style={{ left: theme.state.darkMode ? 0 : 25 }}
+            ></div>
         </div>
     )
 }
