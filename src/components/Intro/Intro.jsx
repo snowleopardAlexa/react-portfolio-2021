@@ -1,6 +1,6 @@
 import React from 'react';
 import "./intro.css";
-import alexa from "../../img/alexa-removebg-preview.png";
+import alexa from "../../img/alexa-edges-2.png";
 
 const Intro = () => {
     return (
