@@ -5,6 +5,7 @@ import email from "../../img/email.png";
 import github from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
 import { useRef } from "react";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
 
