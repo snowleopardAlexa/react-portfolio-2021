@@ -4,14 +4,28 @@ import phone from "../../img/phone.png";
 import email from "../../img/email.png";
 import github from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
 
-const formRef = useRef()
+const formRef = useRef();
+const [done, setDone] = useState(false);
 
 const handleSubmit = (e) => {
     e.preventDefault();
+
+    emailjs.sendForm (
+        'service_e4642ge', 
+        'template_xea1xl7', 
+        formRef.current, 
+        'user_5MeFGxb4xCxqPSFWtic4i')
+    .then((result) => {
+        console.log(result.text);
+        setDone(true);
+    }, (error) => {
+        console.log(error.text);
+    });
 }
 
     return (
@@ -56,6 +70,7 @@ const handleSubmit = (e) => {
                         <input type="text" placeholder="Email" name="user_email" />
                         <textarea rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
+                           {done && "Grrrrrr! Kion The Lion King says that your email has been sent!" }
                     </form>
                 </div>
             </div>
