@@ -70,7 +70,7 @@ const handleSubmit = (e) => {
                         <input type="text" placeholder="Email" name="user_email" />
                         <textarea rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
-                        {done && "Thank you"}
+                           {done && "Grrrrrr! Kion The Lion King says that your email has been sent!" }
                     </form>
                 </div>
             </div>
