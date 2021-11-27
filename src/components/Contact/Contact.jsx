@@ -14,7 +14,11 @@ const formRef = useRef()
 const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    emailjs.sendForm (
+        'service_e4642ge', 
+        'template_xea1xl7', 
+        formRef.current, 
+        'user_5MeFGxb4xCxqPSFWtic4i')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
