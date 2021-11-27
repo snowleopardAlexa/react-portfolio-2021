@@ -1,6 +1,6 @@
 import Intro from "./components/Intro/Intro";
 import About from "./components/About/About";
-import ProductList from "./components/ProductList/ProductList";
+import ProjectList from "./components/ProjectList/ProjectList";
 import Contact from "./components/Contact/Contact";
 import Toggle from "./components/Toggle/Toggle";
 import { useContext } from 'react';
@@ -21,8 +21,8 @@ const App = () => {
        >
        <Toggle />
        <Intro />
+       <ProjectList />
        <About />
-       <ProductList />
        <Contact />
       </div>
     )

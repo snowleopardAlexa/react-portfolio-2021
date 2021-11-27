@@ -6,7 +6,7 @@
 .c-bg {
     width: 20px;
     height: 100%;
-    background-color: blueviolet;
+    background-color: #df0909;
     position: absolute;
 }
 
@@ -78,10 +78,11 @@ textarea {
 button {
     border: none;
     padding: 15px;
-    background-color: rgb(223, 9, 9);
+    background-color: #df0909;
     color: rgb(247, 241, 241);
     font-weight: 500;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 .sent-msg {
