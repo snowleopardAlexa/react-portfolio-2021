@@ -78,8 +78,8 @@ textarea {
 button {
     border: none;
     padding: 15px;
-    background-color: chartreuse;
-    color: white;
+    background-color: rgb(223, 9, 9);
+    color: rgb(247, 241, 241);
     font-weight: 500;
     cursor: pointer;
 }
