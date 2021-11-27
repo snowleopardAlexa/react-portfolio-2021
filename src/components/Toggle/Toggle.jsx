@@ -8,7 +8,7 @@ const Toggle = () => {
         <div className="toggle">
             <img src={sun} alt="" className="t-icon"></img>
             <img src={moon} alt="" className="t-icon"></img>
-            <button className="t-btn">Change Mode</button>
+            <div className="t-btn"></div>
         </div>
     )
 }
