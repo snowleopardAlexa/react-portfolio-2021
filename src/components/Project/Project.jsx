@@ -3,7 +3,6 @@ import './project.css';
 
 const Project = ({img, link, title, number}) => {
     return (
-        <React.Fragment>
         <div className="project">
            <div className="p-browser">
                <div className="p-circle"></div>
@@ -15,9 +14,7 @@ const Project = ({img, link, title, number}) => {
             <p className="p-title">{number} . {title}</p>
            </a>
         </div>
-
-        </React.Fragment>
-    )
+    );
 }
 
 export default Project;

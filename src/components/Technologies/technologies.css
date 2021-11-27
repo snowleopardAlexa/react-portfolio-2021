@@ -32,7 +32,7 @@
 
 .t-card-bg {
     position: absolute;
-    top: 50;
+    top: 5;
     left: 50;
     background-color: sienna;
 }
@@ -52,7 +52,6 @@
 .t-award-img {
     width: 120px;
     height: 120px;
-    border-radius: 20px;
 }
 
 .t-title {
@@ -68,7 +67,7 @@
 }
 
 .t-award {
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
