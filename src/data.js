@@ -2,6 +2,12 @@ import alexa from "./img/alexa.jpg";
 import js from "./img/tech-icons/js.png";
 import react from "./img/tech-icons/react.png";
 import redux from "./img/tech-icons/redux.png";
+import node from "./img/tech-icons/node.png";
+import graphql from "./img/tech-icons/graphql.png";
+import mongodb from "./img/tech-icons/mongodb.png";
+import html from "./img/tech-icons/html.png";
+import css from "./img/tech-icons/css.png";
+import sass from "./img/tech-icons/sass.png";
 
 export const products = [
 
@@ -69,32 +75,32 @@ export const technologies = [
     },
     {
         id: 4,
-        img: js,
+        img: node,
         title: "JavaScript",
     },
     {
         id: 5,
-        img: js,
+        img: mongodb,
         title: "JavaScript",
     },
     {
         id: 6,
-        img: js,
+        img: graphql,
         title: "JavaScript",
     },
     {
-        id: 6,
-        img: js,
+        id: 7,
+        img: html,
         title: "JavaScript",
     },
     {
-        id: 6,
-        img: js,
+        id: 8,
+        img: css,
         title: "JavaScript",
     },
     {
-        id: 6,
-        img: js,
+        id: 9,
+        img: sass,
         title: "JavaScript",
     },
 ]
