@@ -1,5 +1,7 @@
-import alexa from "./alexa.jpg";
-import js from "./js.png";
+import alexa from "./img/alexa.jpg";
+import js from "./img/tech-icons/js.png";
+import react from "./img/tech-icons/react.png";
+import redux from "./img/tech-icons/redux.png";
 
 export const products = [
 
@@ -57,12 +59,12 @@ export const technologies = [
     },
     {
         id: 2,
-        img: js,
+        img: react,
         title: "JavaScript",
     },
     {
         id: 3,
-        img: js,
+        img: redux,
         title: "JavaScript",
     },
     {
