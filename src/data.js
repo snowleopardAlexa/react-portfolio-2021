@@ -7,7 +7,10 @@ import graphql from "./img/tech-icons/graphql.png";
 import mongodb from "./img/tech-icons/mongodb.png";
 import html from "./img/tech-icons/html.png";
 import css from "./img/tech-icons/css.png";
-import sass from "./img/tech-icons/sass.png";
+import mongo from "./img/tech-icons/mongo.svg";
+import IconAmazonwebservices from 'react-devicon/amazonwebservices/original'
+
+
 
 export const products = [
 
@@ -60,7 +63,7 @@ export const technologies = [
 
     {
         id: 1,
-        img: js,
+        img: IconAmazonwebservices,
         title: "JavaScript",
     },
     {
@@ -100,7 +103,7 @@ export const technologies = [
     },
     {
         id: 9,
-        img: sass,
+        img: mongo,
         title: "JavaScript",
     },
 ]
