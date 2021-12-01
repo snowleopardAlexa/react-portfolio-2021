@@ -90,7 +90,7 @@ export const technologies = [
     {
         id: 5,
         img: mongodb,
-        title: "Mongodb",
+        title: "MongoDB",
     },
     {
         id: 6,
@@ -115,7 +115,7 @@ export const technologies = [
     {
         id: 10,
         img: express,
-        title: "Express",
+        title: "Express.js",
     },
     {
         id: 11,

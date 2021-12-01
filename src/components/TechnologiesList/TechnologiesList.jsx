@@ -2,6 +2,8 @@ import React from 'react';
 import './technologieslist.css';
 import Technologies from "../Technologies/Technologies";
 import {technologies} from "../../data";
+import pdf from "../../documents/resume.pdf";
+//import node from "../../img/tech-icons/nodejs-icon.svg";
 
 const TechnologiesList = () => {
     return (
@@ -20,6 +22,13 @@ const TechnologiesList = () => {
                       title={item.title}
                    />
                ))}
+           </div>
+           <div className="pdf">
+            <a href = {pdf} rel="noreferrer" target = "_blank">
+             <button>
+              PDF
+            </button>
+             </a>
            </div>
        </div>
     );

@@ -2,19 +2,25 @@
     margin: 20px 10px;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+    width: 30%;
+}
+
+.container {
+    padding: 20px 20px;
 }
 
 .t-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #D11313;
     margin-top: -5px;
-    padding: 5px;
     position: absolute;
+    margin-left: 5px;
+    
 }
 
 .t-img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     transition: all 10s ease;
 }
 
