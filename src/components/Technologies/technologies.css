@@ -6,8 +6,9 @@
 
 .t-title {
     font-size: 1rem;
-    color: black;
-    margin-top: -15px;
+    color: #D11313;
+    margin-top: -5px;
+    padding: 5px;
     position: absolute;
 }
 
