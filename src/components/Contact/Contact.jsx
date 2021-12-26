@@ -1,11 +1,13 @@
 import React from 'react';
 import "./contact.css";
-import phone from "../../img/phone.png";
-import email from "../../img/email.png";
-import github from "../../img/github.png";
-import linkedin from "../../img/linkedin.png";
 import { useRef, useState } from "react";
 import emailjs from 'emailjs-com';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+
 
 const Contact = () => {
 
@@ -36,19 +38,19 @@ const handleSubmit = (e) => {
                    <h1 className="c-title">Interested in hiring me?</h1>
                    <div className="c-info">
                        <div className="c-info-item">
-                           <img src={phone} alt="" className="c-icon" />
+                       <FontAwesomeIcon icon={faPhone} alt="" className="c-icon" />
                              +1 646 932 1024
                        </div>
                        <div className="c-info-item">
-                           <img className="c-icon" src={email} alt="" />
+                       <FontAwesomeIcon icon={faEnvelope} alt="" className="c-icon" />
                             aleksandravslomska@gmail.com
                        </div>
                        <div className="c-info-item">
-                           <img className="c-icon" src={github} alt="" />
+                       <FontAwesomeIcon icon={faGithub} alt="" className="c-icon" />
                            Github
                        </div>
                        <div className="c-info-item">
-                           <img className="c-icon" src={linkedin} alt="" />
+                       <FontAwesomeIcon icon={faLinkedinIn} alt="" className="c-icon" />
                            LinkedIn
                        </div>
                    </div>

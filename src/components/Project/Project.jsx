@@ -1,9 +1,9 @@
 import React from 'react';
-import './product.css';
+import './project.css';
 
-const Product = ({img, link}) => {
+const Project = ({img, link, title, number}) => {
     return (
-        <div className="product">
+        <div className="project">
            <div className="p-browser">
                <div className="p-circle"></div>
                <div className="p-circle"></div>
@@ -11,9 +11,10 @@ const Product = ({img, link}) => {
            </div>
            <a href={link} target="_blank" rel="noreferrer">
             <img src={img} alt="" className="p-img" />
+            <p className="p-title">{number} . {title}</p>
            </a>
         </div>
-    )
+    );
 }
 
-export default Product;
+export default Project;
