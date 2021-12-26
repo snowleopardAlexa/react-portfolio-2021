@@ -100,4 +100,10 @@
     .intro {
        flex-direction: column;
     }
+    .intro-left-wrapper {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }

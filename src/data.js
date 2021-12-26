@@ -16,8 +16,6 @@ import nextjs from "./img/tech-icons/next-js.svg";
 import npm from "./img/tech-icons/npm.svg";
 
 
-
-
 export const products = [
 
     {
