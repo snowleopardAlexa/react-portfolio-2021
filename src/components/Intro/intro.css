@@ -96,6 +96,8 @@
     align-items: center;
 }
 
+/********** MEDIA QUERIES **********/
+
 @media screen and (max-width: 480px) {
     .intro {
        flex-direction: column;

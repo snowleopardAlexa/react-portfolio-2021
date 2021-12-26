@@ -26,3 +26,11 @@
     position: absolute;
     cursor: pointer;
 }
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (max-width: 480px) {
+    .toggle {
+        right: 100px;
+    }
+}
