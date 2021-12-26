@@ -1,5 +1,5 @@
 .contact {
-    height: 100vh;
+    height: 80vh;
     position: relative;
 }
 
@@ -99,7 +99,13 @@ button {
     background-color: coral;
 }
 
+/********** MEDIA QUERIES **********/
+
 @media screen and (max-width: 480px) {
+    .contact {
+        height: 180vh;
+    }
+
     .c-wrapper {
        flex-direction: column;
     }
