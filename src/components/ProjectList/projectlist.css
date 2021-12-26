@@ -1,17 +1,13 @@
 .pl {
-    padding: 50px 100px;
+    padding: 50px 100px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.pl-texts {
-    width: 65%;
-}
-
 .pl-title {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -25,3 +21,24 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (max-width: 480px) {
+    .pl {
+      text-align: center;
+      padding: 50px 50px; /* responsible for imgs width on mobile view */
+    }
+ 
+    .pl-title {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .pl-desc {
+        margin: 20px 0px;
+    }
+
+   
+ }

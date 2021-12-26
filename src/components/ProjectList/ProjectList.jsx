@@ -19,8 +19,6 @@ const ProjectList = () => {
                     key={item.id} 
                     img={item.img} 
                     link={item.link} 
-                    number={item.number}
-                    title={item.title} 
                   />
                ))}
            </div>

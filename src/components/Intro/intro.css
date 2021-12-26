@@ -24,7 +24,7 @@
 }
 
 .i-intro {
-    font-size: 50px;
+    font-size: 3.5rem;
 }
 
 .i-name {
@@ -89,7 +89,7 @@
 
 .i-title-item {
     height: 50px;
-    font-size: 30px;
+    font-size: 1.7rem;
     font-weight: bold;
     color: #a00b0b;
     display: flex;
