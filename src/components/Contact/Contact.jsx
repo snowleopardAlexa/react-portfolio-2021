@@ -3,10 +3,10 @@ import "./contact.css";
 import { useRef, useState } from "react";
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 
 const Contact = () => {
@@ -38,20 +38,20 @@ const handleSubmit = (e) => {
                    <h1 className="c-title">Interested in hiring me?</h1>
                    <div className="c-info">
                        <div className="c-info-item">
-                       <FontAwesomeIcon icon={faPhone} alt="" className="c-icon" />
-                             +1 646 932 1024
+                       <FontAwesomeIcon icon={faPhoneSquare} alt="" className="c-icon" />
+                             US: +1 646 932 1024
                        </div>
                        <div className="c-info-item">
                        <FontAwesomeIcon icon={faEnvelope} alt="" className="c-icon" />
-                            aleksandravslomska@gmail.com
+                             aleksandravslomska@gmail.com
                        </div>
                        <div className="c-info-item">
                        <FontAwesomeIcon icon={faGithub} alt="" className="c-icon" />
-                           Github
+                           @snowleopardAlexa
                        </div>
                        <div className="c-info-item">
-                       <FontAwesomeIcon icon={faLinkedinIn} alt="" className="c-icon" />
-                           LinkedIn
+                       <FontAwesomeIcon icon={faLinkedin} alt="" className="c-icon" />
+                           Aleksandra Slomska
                        </div>
                    </div>
                 </div>
