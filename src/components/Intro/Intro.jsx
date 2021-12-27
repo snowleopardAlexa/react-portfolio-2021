@@ -1,6 +1,6 @@
 import React from 'react';
 import "./intro.css";
-import alexa from "../../img/alexa-edges-2.png";
+import alexakion1 from "../../img/alexakionnobackfull.png";
 
 const Intro = () => {
     return (
@@ -84,7 +84,7 @@ const Intro = () => {
               <div className="i-bg">
 
               </div>
-              <img src={alexa} alt="" className="i-img" />
+              <img src={alexakion1} alt="" className="i-img" />
           </div>
       </div>
     )
