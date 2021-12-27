@@ -39,6 +39,14 @@
     .pl-desc {
         margin: 20px 0px;
     }
-
-   
  }
+
+ @media screen and (max-width: 860px) {
+     .pl {
+         padding: 50px 50px;
+     }
+
+    .pl-desc {
+        font-size: 1.2rem;
+    }
+}

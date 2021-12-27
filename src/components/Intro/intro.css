@@ -28,12 +28,12 @@
 }
 
 .i-name {
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 300;
 }
 
 .i-desc {
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 .i-scroll {
@@ -83,7 +83,7 @@
 }
 
 .i-title {
-    height: 50px;
+    height: 3rem;
     overflow: hidden;
 }
 
@@ -96,7 +96,6 @@
     align-items: center;
 }
 
-/********** MEDIA QUERIES **********/
 
 @media screen and (max-width: 480px) {
     .intro {
@@ -113,5 +112,35 @@
     
     .i-desc {
         display: none;
+    }
+
+    .i-intro {
+        font-size: 2.8rem;
+    }
+
+    .i-name {
+        font-size: 1.8rem;
+    }
+
+    .i-title-item {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 860px) and (min-width: 490px) {
+    .i-intro {
+        font-size: 2.5rem;
+    }
+
+    .i-name {
+        font-size: 1.5rem;
+    }
+
+    .i-title-item {
+        font-size: 1.2rem;
+    }
+
+    .i-desc {
+        font-size: 1rem;
     }
 }

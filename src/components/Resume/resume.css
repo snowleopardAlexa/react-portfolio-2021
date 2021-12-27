@@ -11,7 +11,7 @@
 }
 
 .r-title {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -27,4 +27,27 @@
     font-size: 1rem;
     margin-top: 25px;
     padding: 20px;
+}
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (max-width: 480px) {
+  .resume {
+      padding: 20px 0px;
+      margin-bottom: 50px;
+  }
+
+  .r-letter {
+      font-size: 1.2rem;
+  }
+
+  .c-letter {
+      font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+    .r-desc {
+        font-size: 1.2rem;
+    }
 }

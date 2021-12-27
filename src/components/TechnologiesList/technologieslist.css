@@ -11,7 +11,7 @@
 }
 
 .tl-title {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -24,4 +24,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    .tl {
+        padding: 20px 50px;
+    }
+    .tl-title {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .tl-desc {
+        font-size: 1.2rem;
+    }
 }

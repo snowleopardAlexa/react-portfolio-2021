@@ -9,7 +9,7 @@ const Resume = () => {
             <div className="r-texts">
                <h1 className="r-title">Resume</h1>
                <p className="r-desc">
-                  This is my digital resume and cover letter.
+                  Check out my digial Resume and Cover Letter.
                </p>
            </div>
             <a href={pdf} rel="noreferrer" target = "_blank">

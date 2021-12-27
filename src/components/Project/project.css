@@ -59,5 +59,19 @@ p:hover .p-img {
      justify-content: center;
      text-align: center;
    }
-  
 }
+
+@media screen and (max-width: 860px) and (min-width: 490px) {
+    .project {
+        width: 45%;
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 870px) {
+    .project {
+        width: 45%;
+        padding: 0px 0px;
+    }
+}
+

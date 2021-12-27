@@ -38,7 +38,6 @@
     font-size: 1.2rem;
 }
 
-
 .c-icon {
     padding: 50px 40px;
     justify-content: center;
@@ -99,9 +98,7 @@ button {
     background-color: coral;
 }
 
-/********** MEDIA QUERIES **********/
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px)  {
     .contact {
         height: 180vh;
     }
@@ -126,4 +123,35 @@ button {
    .c-info-item {
        font-size: 0.9rem;  
    } 
+}
+
+@media screen and (max-width: 860px) and (min-width: 490px) {
+    .contact {
+        height: 120vh;
+    }
+
+    .c-wrapper {
+       flex-direction: column;
+    }
+
+    .c-title {
+        font-size: 2.5rem;
+    }
+
+    .c-icon {
+        padding: 30px 10px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: red;
+        font-size: 2rem;
+    }
+    
+   .c-info-item {
+       font-size: 1.2rem;  
+   } 
+
+   .c-right {
+       margin-top: 50px;
+   }
 }
