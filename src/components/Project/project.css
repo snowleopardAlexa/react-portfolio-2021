@@ -41,3 +41,37 @@
 p:hover .p-img {
     transform: translateY(-100%);
 }
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (max-width: 480px) {
+   .project {
+     width: 100%;
+     margin: 0px 0px;
+     flex-direction: column;
+     text-align: center;
+     margin-top: 50px;
+   }
+
+   .p-title {
+     padding: 100px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+   }
+}
+
+@media screen and (max-width: 860px) and (min-width: 490px) {
+    .project {
+        width: 45%;
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 870px) {
+    .project {
+        width: 45%;
+        padding: 0px 0px;
+    }
+}
+

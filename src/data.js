@@ -1,4 +1,5 @@
 import alexa from "./img/alexa.jpg";
+import todolistapp from "./img/todo-list-app.png";
 import js from "./img/tech-icons/js.png";
 import react from "./img/tech-icons/react.png";
 import redux from "./img/tech-icons/redux.png";
@@ -16,13 +17,11 @@ import nextjs from "./img/tech-icons/next-js.svg";
 import npm from "./img/tech-icons/npm.svg";
 
 
-
-
 export const products = [
 
     {
         id: 1,
-        img: alexa,
+        img: todolistapp,
         number: 1,
         title: "The Lion King Store",
         link: "http://lama.dev",

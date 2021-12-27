@@ -7,9 +7,9 @@ const TechnologiesList = () => {
     return (
        <div className="tl">
            <div className="tl-texts">
-               <h1 className="tl-title">Technologies</h1>
+               <h1 className="tl-title">Skills</h1>
                <p className="tl-desc">
-                   These are technologies I have worked with...
+                   These are technologies I understand and I can work with.
                </p>
            </div>
            <div className="tl-list">
