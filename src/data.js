@@ -2,7 +2,9 @@ import todolistapp from "./img/todo-list-app.png";
 import musicplayer from "./img/musicplayer.png";
 import listofsearchablerepos from "./img/listofsearchablerepos.png";
 import petappointmentapp from "./img/petappointmentapp.png";
-import cryptoverseapp from "./img/cryptoverseapp.png";
+import crypto4 from "./img/crypto4.png";
+import alexa from "./img/alexa.jpg";
+import js from "./img/tech-icons/js.png";
 import react from "./img/tech-icons/react.png";
 import redux from "./img/tech-icons/redux.png";
 import node from "./img/tech-icons/nodejs-icon.svg";
@@ -19,7 +21,7 @@ import nextjs from "./img/tech-icons/next-js.svg";
 import npm from "./img/tech-icons/npm.svg";
 
 
-export const products = [
+export const projects = [
 
     {
         id: 1,
@@ -51,7 +53,7 @@ export const products = [
     },
     {
         id: 5,
-        img: cryptoverseapp,
+        img: crypto4,
         number: 3,
         title: "Pet Appointment Manager",
         link: "http://lama.dev",

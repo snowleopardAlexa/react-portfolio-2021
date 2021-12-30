@@ -1,6 +1,6 @@
 import React from 'react';
 import "./intro.css";
-import alexakion1 from "../../img/alexakionnobackfull.png";
+import alexakion1 from "../../img/alexakion1.jpg";
 
 const Intro = () => {
     return (

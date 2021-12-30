@@ -50,3 +50,7 @@
         font-size: 1.2rem;
     }
 }
+
+@media screen (min-width: 860px) and (max-width: 1400px) {
+    
+}

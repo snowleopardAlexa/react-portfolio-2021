@@ -45,13 +45,13 @@ const handleSubmit = (e) => {
                        <FontAwesomeIcon icon={faEnvelope} alt="" className="c-icon" />
                              aleksandravslomska@gmail.com
                        </div>
-                       <a href="https://github.com/snowleopardAlexa">   
+                       <a className="link" href="https://github.com/snowleopardAlexa">   
                        <div className="c-info-item"> 
                        <FontAwesomeIcon icon={faGithub} alt="" className="c-icon" />
                            @snowleopardAlexa   
                        </div>
                        </a> 
-                       <a href="https://www.linkedin.com/in/aleksandra-slomska-1039681b3/">   
+                       <a className="link" href="https://www.linkedin.com/in/aleksandra-slomska-1039681b3/">   
                        <div className="c-info-item">
                        <FontAwesomeIcon icon={faLinkedin} alt="" className="c-icon" />
                            Aleksandra Slomska
