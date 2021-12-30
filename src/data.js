@@ -2,7 +2,7 @@ import alexa from "./img/alexa.jpg";
 import todolistapp from "./img/todo-list-app.png";
 import musicplayer from "./img/musicplayer.png";
 import listofsearchablerepos from "./img/listofsearchablerepos.png";
-import js from "./img/tech-icons/js.png";
+import petappointmentapp from "./img/petappointmentapp.png";
 import react from "./img/tech-icons/react.png";
 import redux from "./img/tech-icons/redux.png";
 import node from "./img/tech-icons/nodejs-icon.svg";
@@ -44,7 +44,7 @@ export const products = [
     },
     {
         id: 4,
-        img: alexa,
+        img: petappointmentapp,
         number: 3,
         title: "Todo List",
         link: "http://lama.dev",
