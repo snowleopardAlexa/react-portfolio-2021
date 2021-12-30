@@ -1,7 +1,7 @@
 import React from 'react';
 import './projectlist.css';
 import Project from "../Project/Project";
-import { projects } from "../../data";
+import { projects } from "../../data/projects";
 
 
 const ProjectList = () => {

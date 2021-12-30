@@ -1,7 +1,7 @@
 import React from 'react';
 import './technologieslist.css';
 import Technologies from "../Technologies/Technologies";
-import {technologies} from "../../data";
+import {technologies} from "../../data/technologies";
 
 const TechnologiesList = () => {
     return (
