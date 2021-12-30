@@ -1,6 +1,7 @@
 import alexa from "./img/alexa.jpg";
 import todolistapp from "./img/todo-list-app.png";
 import musicplayer from "./img/musicplayer.png";
+import listofsearchablerepos from "./img/listofsearchablerepos.png";
 import js from "./img/tech-icons/js.png";
 import react from "./img/tech-icons/react.png";
 import redux from "./img/tech-icons/redux.png";
@@ -36,7 +37,7 @@ export const products = [
     },
     {
         id: 3,
-        img: alexa,
+        img: listofsearchablerepos,
         number: 3,
         title: "List of Searchable Repos",
         link: "http://lama.dev",
