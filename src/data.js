@@ -1,8 +1,8 @@
-import alexa from "./img/alexa.jpg";
 import todolistapp from "./img/todo-list-app.png";
 import musicplayer from "./img/musicplayer.png";
 import listofsearchablerepos from "./img/listofsearchablerepos.png";
 import petappointmentapp from "./img/petappointmentapp.png";
+import cryptoverseapp from "./img/cryptoverseapp.png";
 import react from "./img/tech-icons/react.png";
 import redux from "./img/tech-icons/redux.png";
 import node from "./img/tech-icons/nodejs-icon.svg";
@@ -51,7 +51,7 @@ export const products = [
     },
     {
         id: 5,
-        img: alexa,
+        img: cryptoverseapp,
         number: 3,
         title: "Pet Appointment Manager",
         link: "http://lama.dev",
