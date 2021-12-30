@@ -1,5 +1,6 @@
 import alexa from "./img/alexa.jpg";
 import todolistapp from "./img/todo-list-app.png";
+import musicplayer from "./img/musicplayer.png";
 import js from "./img/tech-icons/js.png";
 import react from "./img/tech-icons/react.png";
 import redux from "./img/tech-icons/redux.png";
@@ -28,9 +29,9 @@ export const products = [
     },
     {
         id: 2,
-        img: alexa,
+        img: musicplayer,
         number: 1,
-        title: "Storybook Crazy Mamba",
+        title: "Music Player",
         link: "http://lama.dev",
     },
     {
