@@ -1,6 +1,6 @@
 import React from 'react';
 import "./intro.css";
-import alexa from "../../img/alexa-edges-2.png";
+import alexakion1filter from "../../img/alexakion1filter.jpg";
 
 const Intro = () => {
     return (
@@ -81,10 +81,8 @@ const Intro = () => {
         </svg>
           </div>
           <div className="intro-right">
-              <div className="i-bg">
-
-              </div>
-              <img src={alexa} alt="" className="i-img" />
+              <div className="i-bg"></div>
+              <img src={alexakion1filter} alt="" className="i-img" />
           </div>
       </div>
     )

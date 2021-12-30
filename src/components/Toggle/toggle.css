@@ -35,20 +35,3 @@
     }
 }
 
-@media screen and (max-width: 1400px) and (min-width: 870px) {
-    .toggle {
-        width: 65px;
-        height: 35px;
-    }
-    
-    .t-icon {
-        width: 20px;
-        height: 20px;
-    }
-    
-    .t-btn {
-        width: 38px;
-        height: 33px;
-        
-    }
-}

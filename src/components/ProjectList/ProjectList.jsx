@@ -1,7 +1,7 @@
 import React from 'react';
 import './projectlist.css';
 import Project from "../Project/Project";
-import {products} from "../../data";
+import { projects } from "../../data/projects";
 
 
 const ProjectList = () => {
@@ -14,7 +14,7 @@ const ProjectList = () => {
                </p>
            </div>
            <div className="pl-list">
-               {products.map((item) => (
+               {projects.map((item) => (
                   <Project 
                     key={item.id} 
                     img={item.img} 
