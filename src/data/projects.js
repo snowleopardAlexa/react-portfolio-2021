@@ -3,7 +3,7 @@ import musicplayer from "../img/musicplayer.png";
 import listofsearchablerepos from "../img/listofsearchablerepos.png";
 import petappointmentapp from "../img/petappointmentapp.png";
 import crypto4 from "../img/crypto4.png";
-import alexa from "../img/alexa.jpg";
+import thelionkingstore from "../img/thelionkingstore.png";
 
 export const projects = [
 
@@ -17,7 +17,7 @@ export const projects = [
     {
         id: 2,
         img: musicplayer,
-        number: 1,
+        number: 2,
         title: "Music Player",
         link: "http://lama.dev",
     },
@@ -31,22 +31,22 @@ export const projects = [
     {
         id: 4,
         img: petappointmentapp,
-        number: 3,
+        number: 4,
         title: "Todo List",
         link: "http://lama.dev",
     },
     {
         id: 5,
         img: crypto4,
-        number: 3,
+        number: 5,
         title: "Pet Appointment Manager",
         link: "http://lama.dev",
     },
     {
         id: 6,
-        img: alexa,
-        number: 3,
-        title: "Movies App",
+        img: thelionkingstore,
+        number: 6,
+        title: "The Lion King Store",
         link: "http://lama.dev",
     },
 ]
