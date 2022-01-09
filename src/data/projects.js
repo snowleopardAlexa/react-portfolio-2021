@@ -11,7 +11,7 @@ export const projects = [
         id: 1,
         img: todolistapp,
         number: 1,
-        title: "The Lion King Store",
+        title: "Todo App",
         link: "http://lama.dev",
     },
     {
@@ -32,21 +32,21 @@ export const projects = [
         id: 4,
         img: petappointmentapp,
         number: 4,
-        title: "Todo List",
+        title: "Pet Appointment App",
         link: "http://lama.dev",
     },
     {
         id: 5,
         img: crypto4,
         number: 5,
-        title: "Pet Appointment Manager",
+        title: "Cryptoverse App",
         link: "http://lama.dev",
     },
     {
         id: 6,
         img: thelionkingstore,
         number: 6,
-        title: "The Lion King Store",
+        title: "The Lion King Store App",
         link: "http://lama.dev",
     },
 ]
