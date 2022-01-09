@@ -18,8 +18,8 @@ export const projects = [
         id: 2,
         img: musicplayer,
         number: 2,
-        title: "Music Player",
-        link: "http://lama.dev",
+        title: "Music Player App",
+        link: "https://music-player-react-three.vercel.app/",
     },
     {
         id: 3,
