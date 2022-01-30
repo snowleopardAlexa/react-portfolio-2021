@@ -4,7 +4,7 @@ This is React Portfolio 2021 deployed with Vercel.
 
 ### The Projects:
 
-The projects are included in the portfolio:
+These projects are included in the portfolio:
 
 1. E-commerce Fashion Store 
 2. Music Player App
