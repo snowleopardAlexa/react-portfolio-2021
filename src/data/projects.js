@@ -1,52 +1,76 @@
-import todolistapp from "../img/todo-list-app.png";
+import ecommercefashionstore from "../img/ecommercefashionstore.png";
 import musicplayer from "../img/musicplayer.png";
-import listofsearchablerepos from "../img/listofsearchablerepos.png";
+import chatreactapp from "../img/chatreactapp.png";
 import petappointmentapp from "../img/petappointmentapp.png";
-import crypto4 from "../img/crypto4.png";
-import thelionkingstore from "../img/thelionkingstore.png";
+import sms from "../img/sms.png";
+import todolistapp from "../img/todo-list-app.png";
+import queensocialpage from "../img/queen-social-page.png";
+import animal from "../img/animal.png";
+import library from "../img/library.png";
 
 export const projects = [
 
     {
         id: 1,
-        img: todolistapp,
+        img: ecommercefashionstore,
         number: 1,
-        title: "Todo App",
-        link: "http://lama.dev",
+        title: "E-commerce Fashion Store",
+        link: "https://e-commerce-fashion-store-snowleopardalexa.vercel.app/",
     },
     {
         id: 2,
         img: musicplayer,
         number: 2,
         title: "Music Player App",
-        link: "https://music-player-react-three.vercel.app/",
+        link: "https://music-player-react-snowleopardalexa.vercel.app/",
     },
     {
         id: 3,
-        img: listofsearchablerepos,
+        img: chatreactapp,
         number: 3,
-        title: "List of Searchable Repos",
-        link: "http://lama.dev",
+        title: "Chat React App",
+        link: "https://chat-react-app-snowleopardalexa.vercel.app/",
     },
     {
         id: 4,
         img: petappointmentapp,
         number: 4,
         title: "Pet Appointment App",
-        link: "http://lama.dev",
+        link: "https://pet-appointment-app-react-snowleopardalexa.vercel.app/",
     },
     {
         id: 5,
-        img: crypto4,
+        img: sms,
         number: 5,
-        title: "Cryptoverse App",
-        link: "http://lama.dev",
+        title: "Send Sms App",
+        link: "https://send-sms-app-snowleopardalexa.vercel.app/",
     },
     {
         id: 6,
-        img: thelionkingstore,
+        img: todolistapp,
         number: 6,
-        title: "The Lion King Store App",
-        link: "http://lama.dev",
+        title: "Todo List App",
+        link: "https://todo-list-app-snowleopardalexa.vercel.app/",
+    },
+    {
+        id: 7,
+        img: queensocialpage,
+        number: 5,
+        title: "Queen Social Landing Page",
+        link: "https://queen-social-landing-page-mui-snowleopardalexa.vercel.app/",
+    },
+    {
+        id: 8,
+        img: animal,
+        number: 5,
+        title: "Animal Groups App",
+        link: "https://animal-groups-app-snowleopardalexa.vercel.app/",
+    },
+    {
+        id: 9,
+        img: library,
+        number: 5,
+        title: "Library App",
+        link: "https://library-app-snowleopardalexa.vercel.app/",
     },
 ]
