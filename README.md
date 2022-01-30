@@ -2,6 +2,9 @@
 
 This is React Portfolio 2021 deployed with Vercel. 
 
+- Vercel:
+https://react-portfolio-2021-snowleopardalexa.vercel.app/
+
 ### The Projects:
 
 These projects are included in the portfolio:
