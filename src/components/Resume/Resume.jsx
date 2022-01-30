@@ -1,7 +1,7 @@
 import React from 'react';
 import './resume.css';
-import pdf from "../../documents/resume.pdf";
-
+import resume from "../../documents/resume.pdf";
+import coverletter from "../../documents/coverletter.pdf";
    
 const Resume = () => {
     return (
@@ -12,12 +12,12 @@ const Resume = () => {
                   Check out my digial Resume and Cover Letter.
                </p>
            </div>
-            <a href={pdf} rel="noreferrer" target = "_blank">
+            <a href={resume} rel="noreferrer" target = "_blank">
              <button className="r-letter">
                RESUME
             </button>
              </a>
-             <a href={pdf} rel="noreferrer" target = "_blank">
+             <a href={coverletter} rel="noreferrer" target = "_blank">
              <button className="c-letter">
                COVER LETTER
             </button>

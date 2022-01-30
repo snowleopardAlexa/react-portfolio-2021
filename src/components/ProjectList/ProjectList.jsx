@@ -15,10 +15,12 @@ const ProjectList = () => {
            </div>
            <div className="pl-list">
                {projects.map((item) => (
-                  <Project 
+                  <Project
                     key={item.id} 
                     img={item.img} 
                     link={item.link} 
+                    number={item.number}
+                    title={item.title}
                   />
                ))}
            </div>
