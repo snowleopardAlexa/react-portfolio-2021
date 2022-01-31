@@ -11,7 +11,7 @@ These projects are included in the portfolio:
 
 1. E-commerce Fashion Store 
 2. Music Player App
-3. Chat React App
+3. Simple React Calculator
 4. Pet Appointment App
 5. Send Sms App
 6. Todo List App
@@ -35,13 +35,13 @@ https://github.com/snowleopardAlexa/music-player-react
 - Vercel:
 https://music-player-react-snowleopardalexa.vercel.app/
 
-#### Chat React App
+#### Simple React Calculator App
 
 - Github:
-https://github.com/snowleopardAlexa/chat-react-app
+https://github.com/snowleopardAlexa/simple-react-calculator-app
 
 - Vercel:
-https://chat-react-app-snowleopardalexa.vercel.app/
+https://simple-react-calculator-app-snowleopardalexa.vercel.app/
 
 #### Pet Appointment App
 
