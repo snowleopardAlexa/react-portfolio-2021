@@ -1,6 +1,6 @@
 import ecommercefashionstore from "../img/ecommercefashionstore.png";
 import musicplayer from "../img/musicplayer.png";
-import chatreactapp from "../img/chatreactapp.png";
+import formapp from "../img/formapp.png";
 import petappointmentapp from "../img/petappointmentapp.png";
 import sms from "../img/sms.png";
 import todolistapp from "../img/todo-list-app.png";
@@ -26,10 +26,10 @@ export const projects = [
     },
     {
         id: 3,
-        img: chatreactapp,
+        img: formapp,
         number: 3,
-        title: "Chat React App",
-        link: "https://chat-react-app-snowleopardalexa.vercel.app/",
+        title: "Form Validation App",
+        link: "https://form-validation-app-snowleopardalexa.vercel.app/",
     },
     {
         id: 4,
