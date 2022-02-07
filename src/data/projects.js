@@ -1,7 +1,7 @@
 import ecommercefashionstore from "../img/ecommercefashionstore.png";
 import musicplayer from "../img/musicplayer.png";
 import formapp from "../img/formapp.png";
-import petappointmentapp from "../img/petappointmentapp.png";
+import movies from "../img/movies.jpg";
 import sms from "../img/sms.png";
 import todolistapp from "../img/todo-list-app.png";
 import queensocialpage from "../img/queen-social-page.png";
@@ -33,7 +33,7 @@ export const projects = [
     },
     {
         id: 4,
-        img: petappointmentapp,
+        img: movies,
         number: 4,
         title: "Pet Appointment App",
         link: "https://pet-appointment-app-react-snowleopardalexa.vercel.app/",
