@@ -6,7 +6,7 @@ import sms from "../img/sms.png";
 import todolistapp from "../img/todo-list-app.png";
 import queensocialpage from "../img/queen-social-page.png";
 import animal from "../img/animal.png";
-import library from "../img/library.png";
+import eden from "../img/eden.jpg";
 
 export const projects = [
 
@@ -19,24 +19,24 @@ export const projects = [
     },
     {
         id: 2,
+        img: eden,
+        number: 5,
+        title: "Eden Beauty Salon",
+        link: "https://eden-beauty-salon-website-snowleopardalexa.vercel.app/",
+    },
+    {
+        id: 3,
         img: musicplayer,
         number: 2,
         title: "Music Player App",
         link: "https://music-player-react-snowleopardalexa.vercel.app/",
     },
     {
-        id: 3,
-        img: formapp,
-        number: 3,
-        title: "Form Validation App",
-        link: "https://form-validation-app-snowleopardalexa.vercel.app/",
-    },
-    {
         id: 4,
         img: movies,
         number: 4,
-        title: "Pet Appointment App",
-        link: "https://pet-appointment-app-react-snowleopardalexa.vercel.app/",
+        title: "Movies App",
+        link: "https://movies-app-snowleopardalexa.vercel.app/",
     },
     {
         id: 5,
@@ -68,9 +68,9 @@ export const projects = [
     },
     {
         id: 9,
-        img: library,
-        number: 5,
-        title: "Library App",
-        link: "https://library-app-snowleopardalexa.vercel.app/",
+        img: formapp,
+        number: 3,
+        title: "Form Validation App",
+        link: "https://form-validation-app-snowleopardalexa.vercel.app/",
     },
 ]
