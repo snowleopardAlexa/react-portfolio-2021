@@ -6,7 +6,7 @@ import sms from "../img/sms.png";
 import todolistapp from "../img/todo-list-app.png";
 import queensocialpage from "../img/queen-social-page.png";
 import animal from "../img/animal.png";
-import eden from "../img/eden.jpg";
+import eden from "../img/eden.png";
 
 export const projects = [
 
