@@ -20,14 +20,14 @@ export const projects = [
     {
         id: 2,
         img: eden,
-        number: 5,
+        number: 2,
         title: "Eden Beauty Salon",
         link: "https://eden-beauty-salon-website-snowleopardalexa.vercel.app/",
     },
     {
         id: 3,
         img: musicplayer,
-        number: 2,
+        number: 3,
         title: "Music Player App",
         link: "https://music-player-react-snowleopardalexa.vercel.app/",
     },
@@ -55,14 +55,14 @@ export const projects = [
     {
         id: 7,
         img: queensocialpage,
-        number: 5,
+        number: 7,
         title: "Queen Social Landing Page",
         link: "https://queen-social-landing-page-mui-snowleopardalexa.vercel.app/",
     },
     {
         id: 8,
         img: animal,
-        number: 5,
+        number: 8,
         title: "Animal Groups App",
         link: "https://animal-groups-app-snowleopardalexa.vercel.app/",
     },
