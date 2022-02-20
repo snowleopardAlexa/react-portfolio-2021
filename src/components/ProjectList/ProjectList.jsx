@@ -10,7 +10,7 @@ const ProjectList = () => {
            <div className="pl-texts">
                <h1 className="pl-title">Projects</h1>
                <p className="pl-desc">
-                   These projects are made with React.
+                   These are my front-end projects.
                </p>
            </div>
            <div className="pl-list">

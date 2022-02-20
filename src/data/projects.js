@@ -12,14 +12,14 @@ export const projects = [
         id: 1,
         img: cruella,
         number: 1,
-        title: "E-commerce Fashion Store",
+        title: "E-commerce Store",
         link: "https://e-commerce-fashion-store-snowleopardalexa.vercel.app/",
     },
     {
         id: 2,
         img: eden,
         number: 2,
-        title: "Eden Beauty Salon",
+        title: "Eden Salon",
         link: "https://eden-beauty-salon-website-snowleopardalexa.vercel.app/",
     },
     {

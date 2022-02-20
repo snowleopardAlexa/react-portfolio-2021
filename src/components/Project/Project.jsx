@@ -1,7 +1,7 @@
 import React from 'react';
 import './project.css';
 
-const Project = ({img, link, title, number}) => {
+const Project = ({img, link, title, number, subtitle}) => {
     return (
         <div className="project">
            <div className="p-browser">
