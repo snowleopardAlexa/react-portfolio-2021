@@ -27,7 +27,7 @@ export const projects = [
         img: lion,
         number: 3,
         title: "The Lion King Website",
-        link: "https://music-player-react-snowleopardalexa.vercel.app/",
+        link: "https://snowleopardalexa.github.io/the-lion-king/",
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ export const projects = [
         img: music,
         number: 5,
         title: "Music Player App",
-        link: "https://send-sms-app-snowleopardalexa.vercel.app/",
+        link: "https://music-player-react-snowleopardalexa.vercel.app/",
     },
     {
         id: 6,
